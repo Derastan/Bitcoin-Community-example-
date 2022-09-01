@@ -98,8 +98,9 @@ a {
 }
 
 .hero-section .content > .actions a:hover {
-  background-color: #fff;
-  color: #025f02;
+  border-color: #fff;
+  background-color: #7af885;
+  color: #000;
 }
 .hero-section .image {
   width: 40%;
