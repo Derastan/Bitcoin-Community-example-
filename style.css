@@ -50,6 +50,7 @@ a {
   padding: 0.8rem 2rem;
   color: #000;
   border: 2px solid #7af885;
+  transition: ease-in-out .3s;
 }
 
 .header .nav-item.login > a:hover {
@@ -82,7 +83,7 @@ a {
   font-size: 2.8rem;
   margin-bottom: 1rem;
   color: #d3d1d1;
-  animation: fadein 2s ease-in;
+  animation: fadein 1s ease-in;
 }
 
 @keyframes fadein{
@@ -93,7 +94,7 @@ a {
 .hero-section .content > p {
   margin-bottom: 2rem;
   color: #d3d1d1;
-  animation: fadein 4s ease-in;
+  animation: fadein 2s ease-in;
 }
 
 .hero-section .content > .actions a {
@@ -103,13 +104,15 @@ a {
   color: #d3d1d1;
   padding: 0.5rem 2rem;
   margin-right: 1rem;
-  animation: fadein 6s ease-in;
+  animation: fadein 3s ease-in;
+  transition: ease-out 1s;
 }
 
 .hero-section .content > .actions a:hover {
   border-color: #fff;
   background-color: #7af885;
   color: #000;
+  box-shadow: inset 400px 0 0 0 #fff;
 }
 .hero-section .image {
   width: 40%;
